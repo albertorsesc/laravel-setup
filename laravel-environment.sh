@@ -244,6 +244,7 @@ echo "#================|  Installing PhpMyAdmin... |================#";
 
 sudo apt-get update;
 sudo apt-get install -y phpmyadmin php-gettext;
+sudo apt-get install libapache2-mod-php7.2;
 
 echo "**************************************"
 echo "************************************"
